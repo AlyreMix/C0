@@ -21,26 +21,6 @@ public class Token {
         keywords.put("if", TokenType.IF_KW);
         keywords.put("else", TokenType.ELSE_KW);
         keywords.put("return", TokenType.RETURN_KW);
-        keywords.put("+", TokenType.PLUS);
-        keywords.put("-", TokenType.MINUS);
-        keywords.put("*", TokenType.MUL);
-        keywords.put("/", TokenType.DIV);
-        keywords.put("=", TokenType.ASSIGN);
-        keywords.put("==", TokenType.EQ);
-        keywords.put("!=", TokenType.NEQ);
-        keywords.put("<", TokenType.LT);
-        keywords.put(">", TokenType.GT);
-        keywords.put("<=", TokenType.LE);
-        keywords.put(">=", TokenType.GE);
-        keywords.put("(", TokenType.L_PAREN);
-        keywords.put(")", TokenType.R_PAREN);
-        keywords.put("{", TokenType.L_BRACE);
-        keywords.put("}", TokenType.R_BRACE);
-        keywords.put("->", TokenType.ARROW);
-        keywords.put(",", TokenType.COMMA);
-        keywords.put(":", TokenType.COLON);
-        keywords.put(";", TokenType.SEMICOLON);
-        keywords.put("IDENT", TokenType.IDENT);
         }
 
     public Token(TokenType tokenType, Object value, Pos startPos, Pos endPos) {
